@@ -1,12 +1,16 @@
 # Binary Clock
 
-Projeto de um relógio binário, hardware e software, que marque horas, minutos e segundos, utilizando um microcontrolador PIC16F877A, da Microchip. </br>
-O relógio binário foi desenvolvido como projeto pessoal, e foi montado em uma placa universal, de acordo com os esquemáticos da pasta Proteus, do mesmo diretório de projeto.</br> </br>
+## A proposta
 
-O código foi desenvolvido específico para a plataforma PIC. Entretanto, sendo feitas algumas pequenas modificações de inicalização e configuração de registradores, o projeto pode ser adaptado para outros microcontroladores, de outras fabricantes. </br></br>
+Projeto de um relógio binário, hardware e software, que marque horas, minutos e segundos, utilizando um microcontrolador PIC16F877A, da Microchip. O relógio binário foi desenvolvido como projeto pessoal, e foi montado em uma placa universal, de acordo com os esquemáticos da pasta Proteus, do mesmo diretório de projeto.
 
-O projeto foi todo desenvolvido em C, e foram implementadas algumas funções para facilitar o fluxo de código ao longo do projeto, como uma função que imita o 'try catch' das linguagens orientadas a objetos. </br>
-Dessa forma, é possível verificar erros, e saber como agir de uma forma bastante inteligente e eficicente.
+## Utilidade
+
+O código foi desenvolvido especificamente para a plataforma PIC. Entretanto, sendo feitas algumas pequenas modificações de inicalização e configuração de alguns registradores, o projeto pode ser adaptado para outros microcontroladores, de outras fabricantes. 
+
+O projeto foi todo desenvolvido em C, e foram implementadas algumas funções para facilitar o fluxo de código ao longo do projeto, como uma função que imita o 'try catch' das linguagens orientadas a objetos. Dessa forma, é possível verificar erros, e saber como agir de uma forma bastante inteligente e eficicente.
+
+## Como funciona?
 
 O relógio começa a marcar a hora a partir do instante 00:00, no momento que é energizado. Para fazer o ajuste da hora desejada, basta usar os push buttons de ajuste de minuto e hora. No momento que o circuito é desenergizado, o relógio perde a hora marcada, pois não há nenhum dispositivo de memória implementado. Entretanto, caso seja necessário guardar as configurações de tempo mesmo com o circuito desenergizado, pode-se utilizar um RTC, e assim fazer apenas a leitura dos valores do relógio. Todavia, acredito que fazendo isso perde-se a essência de desenvolver o relógio binário, contador, pensar na lógica de desenvolvimento e em como otimizar o software.
 
@@ -16,6 +20,8 @@ O arquivo .hex é o arquivo com formato para ser gravado no microcontrolador, qu
 O arquivo .mccpi é o arquivo que linka todos os arquivos de projeto, criado pelo compilador MikroC, utilizado para desenvolvimento. </br>
 Os demais arquivos, são arquivos de configuração criados pelo compilador. </br>
 Dentro da pasta /Proteus está o esquemático com o hardware do circuito.
+
+## O que foi utilizado no projeto?
 
 Lista de componentes utilizados no projeto:
 
