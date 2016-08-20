@@ -33,10 +33,10 @@ Entretanto, caso seja necessário guardar as configurações de tempo mesmo com 
 4. 3 x Push button </br>
 5. 3 x Resistor de 1k ohm </br>
 6. 1 x Cristal de 20MHz  </br>
-7. 2 Capacitores de 22pF </br>
-8. 1 Capacitor de 100nF </br>
-9. 17 LEDs </br>
-10. 1 Conector com fios para baterias de 9V
+7. 2 x Capacitores de 22pF </br>
+8. 1 x Capacitor de 100nF </br>
+9. 17 x LEDs </br>
+10. 1 x Conector com fios para baterias de 9V
 11. 1 x placa universal de
 
 Abaixo, tem-se uma imagem do circuito montado.
