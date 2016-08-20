@@ -41,7 +41,7 @@ Entretanto, caso seja necessário guardar as configurações de tempo mesmo com 
 
 Abaixo, tem-se uma imagem do circuito montado.
 
-[Imgur](http://i.imgur.com/iAL2RE6.jpg)
+![Imgur](http://i.imgur.com/iAL2RE6.jpg)
 
 ## Direitos
 
