@@ -39,6 +39,10 @@ Entretanto, caso seja necessário guardar as configurações de tempo mesmo com 
 10. 1 Conector com fios para baterias de 9V
 11. 1 x placa universal de
 
+Abaixo, tem-se uma imagem do circuito montado.
+
+[Imgur](http://i.imgur.com/iAL2RE6.jpg)
+
 ## Direitos
 
 **O projeto pode ser reproduzido sem problema algum.** </br>
