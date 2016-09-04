@@ -23,6 +23,10 @@ Entretanto, caso seja necessário guardar as configurações de tempo mesmo com 
 *- Os demais arquivos, são arquivos de configuração criados pelo compilador.* </br>
 *- Dentro da pasta /Proteus está o esquemático com o hardware do circuito.*
 
+Abaixo, tem-se uma imagem do hardware montado no software Proteus.
+
+![Imgur](http://i.imgur.com/rsIKPXu.png)
+
 ## O que foi utilizado no projeto?
 
 **Lista de componentes utilizados no projeto:**
