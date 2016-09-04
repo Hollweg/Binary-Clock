@@ -43,7 +43,7 @@ Abaixo, tem-se uma imagem do hardware montado no software Proteus.
 10. 1 x Conector com fios para baterias de 9V
 11. 1 x placa universal de
 
-Abaixo, tem-se uma imagem do circuito montado.
+Abaixo, tem-se uma imagem do circuito montado em uma placa universal.
 
 ![Imgur](http://i.imgur.com/iAL2RE6.jpg)
 
