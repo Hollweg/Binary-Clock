@@ -6,9 +6,9 @@ Binary Clock project, **hardware and software**, that counts hours, time, minute
 
 ##Utility
 
-The code was developed specifically to PIC platform. However, if some changes were made, mainly in initialization, configuration and some registers, the project can be adapted to other microcontroller families, from other manufacturers.
+The code was developed specifically to **PIC platform**. However, if some changes were made, mainly in initialization, configuration and some registers, **the project can be adapted to other microcontroller families, from other manufacturers**.
 
-The project was developed in C and were implemented some functions to facilitate flux code during project, like one function that mimics the job done by "try catch", from object oriented programming languages. In this way, it is possible to verify errors and know how to act in a very smart and intelligent way.
+The project was developed in **C** and were implemented some functions to enhance flux code during project, like one function that **mimics the job done by "try catch"**, from object oriented programming languages. In this way, it is possible to verify errors and know how to act in a very smart and intelligent way.
  
 ##How it works?
 
