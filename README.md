@@ -50,7 +50,7 @@ Below, there is an image of the circuit mounted in an universal soldering board.
 ##Copyrigths
 
 **The project can be reproduced without any problems.** </br>
-However, I only ask to keep author references. :)
+However, I only ask you to **keep author credits.** :)
 
 
 Enjoy!
