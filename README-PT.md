@@ -8,15 +8,15 @@ Durante esse README, explicarei o passo a passo para montar um Relógio Binário
 
 ## Utilidade
 
-O código foi desenvolvido especificamente para a plataforma PIC. Entretanto, sendo feitas algumas pequenas modificações de inicalização e configuração de alguns registradores, o projeto pode ser adaptado para outros microcontroladores, de outras fabricantes. 
+O código foi desenvolvido especificamente para a plataforma PIC. Entretanto, **sendo feitas algumas pequenas modificações de inicalização e configuração de alguns registradores, o projeto pode ser adaptado para outros microcontroladores, de outras fabricantes.**
 
 O projeto foi todo desenvolvido em C, e foram implementadas algumas funções para facilitar o fluxo de código ao longo do projeto, como uma função que imita o 'try; catch' das linguagens orientadas a objetos. Dessa forma, é possível verificar erros, e saber como agir de uma forma bastante inteligente e eficicente.
 
 ## Como funciona?
 
-O relógio começa a marcar a hora a partir do instante 00:00, no momento que é energizado. Para fazer o ajuste da hora desejada, basta usar os push buttons de ajuste de minuto e hora. No momento que o circuito é desenergizado, o relógio perde a hora marcada, pois não há nenhum dispositivo de memória implementado. 
+**O relógio começa a marcar a hora a partir do instante 00:00, no momento que é energizado. Para fazer o ajuste da hora desejada, basta usar os push buttons de ajuste de minuto e hora. No momento que o circuito é desenergizado, o relógio perde a hora marcada, pois não há nenhum dispositivo de memória implementado.**
 
-Entretanto, caso seja necessário guardar as configurações de tempo mesmo com o circuito desenergizado, pode-se utilizar um RTC, e assim fazer apenas a leitura dos valores do relógio. Todavia, acredito que fazendo isso perde-se a essência de desenvolver o relógio binário, contador, pensar na lógica de desenvolvimento e em como otimizar o software.
+Entretanto, caso seja necessário guardar as configurações de tempo mesmo com o **circuito desenergizado**, pode-se utilizar um **RTC**, e assim fazer apenas a **leitura dos valores do relógio.** Todavia, acredito que fazendo isso perde-se a essência de desenvolver o relógio binário, contador, pensar na lógica de desenvolvimento e em como otimizar o software.
 
 Tipos de arquivos presentes no projeto:
 
