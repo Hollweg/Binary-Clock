@@ -1,56 +1,61 @@
-# Binary Clock
+#Binary Clock
 
-## A proposta
+##The purpose
 
-Projeto de um relógio binário, **hardware e software**, que marque horas, minutos e segundos, utilizando um microcontrolador PIC16F877A, da Microchip. O relógio binário foi desenvolvido como projeto pessoal, e foi montado em uma placa universal, de acordo com os esquemáticos da pasta Proteus, do mesmo diretório de projeto.
+Binary Clock project, **hardware and software**, that counts hours, time, minutes and seconds **using the PIC16F877A microcontroller**, from Microchip. The Binary Clock was developed as a personal project and it was mounted on an universal soldering board, according with Proteus folder schematics (that I developed).
 
-## Utilidade
+During this README, I'll explain how to develop your own Binary Clock from scratch. :D
 
-O código foi desenvolvido especificamente para a plataforma PIC. Entretanto, sendo feitas algumas pequenas modificações de inicalização e configuração de alguns registradores, o projeto pode ser adaptado para outros microcontroladores, de outras fabricantes. 
+##Utility
 
-O projeto foi todo desenvolvido em C, e foram implementadas algumas funções para facilitar o fluxo de código ao longo do projeto, como uma função que imita o 'try catch' das linguagens orientadas a objetos. Dessa forma, é possível verificar erros, e saber como agir de uma forma bastante inteligente e eficicente.
+The code was developed specifically to **PIC platform**. However, if some changes were made, mainly in initialization, configuration and some registers, **the project can be adapted to other microcontroller families, from other manufacturers**.
 
-## Como funciona?
+The project was developed in **C** and were implemented some functions to enhance flux code during project, like one function that **mimics the job done by "try catch"**, from object oriented programming languages. In this way, it is possible to verify errors and know how to act in a very smart and intelligent way.
+ 
+##How it works?
 
-O relógio começa a marcar a hora a partir do instante 00:00, no momento que é energizado. Para fazer o ajuste da hora desejada, basta usar os push buttons de ajuste de minuto e hora. No momento que o circuito é desenergizado, o relógio perde a hora marcada, pois não há nenhum dispositivo de memória implementado. 
+The clock starts marking hour from 00:00, in the moment that it's powered. **To adjust time until desired hour and minute you have to use the board push buttons** (in the right side of hour or minute LEDs array). In the moment that the circuit is **de-energized**, the clock **loses its reference** and the actual time because it does not have a memory hardware implemented in board.
 
-Entretanto, caso seja necessário guardar as configurações de tempo mesmo com o circuito desenergizado, pode-se utilizar um RTC, e assim fazer apenas a leitura dos valores do relógio. Todavia, acredito que fazendo isso perde-se a essência de desenvolver o relógio binário, contador, pensar na lógica de desenvolvimento e em como otimizar o software.
+However, if you need to store the last marked hour, even with the circuit de-energized, you can use a RTC hardware, and only read its time variables, than display it in the LEDs array. In other way, I think that this kind of "upgrade" is not nice because it makes you miss the essence of build an Binary Clock, since thinking in clock logic, counters, until software otimization.
 
-*- O arquivo .c contém o código desenvolvido utilizando C.* </br>
-*- O arquivo .asm contém o código traduzido para linaguagem de montagem. (assembly)* </br>
-*- O arquivo .hex é o arquivo com formato para ser gravado no microcontrolador, que é traduzido para linguagem de máquina e interpretado.* </br>
-*- O arquivo .mccpi é o arquivo que linka todos os arquivos de projeto, criado pelo compilador MikroC, utilizado para desenvolvimento.* </br>
-*- Os demais arquivos, são arquivos de configuração criados pelo compilador.* </br>
-*- Dentro da pasta /Proteus está o esquemático com o hardware do circuito.*
+File types in project:
 
-Abaixo, tem-se uma imagem do hardware montado no software Proteus.
+*- The .c file contains the developed code in C.* </br>
+*- The .asm file contains the code translated to assembly* </br>
+*- The .hex file is the ready to burn file, containing the code in hexadecimal language.* </br>
+*- The .mccpi file is the link between all files in project, created by MikroC compiler (IDE used to software development).* </br>
+*- The other files are configuration files, created by compiler.* </br>
+*- Inside /Proteus folder it is the project hardware schematic* </br>
+
+*Below there is an imagem of the project hardware simulated in Proteus.*
 
 ![Imgur](http://i.imgur.com/rsIKPXu.png)
 
-## O que foi utilizado no projeto?
+##Which was used in project?
 
-**Lista de componentes utilizados no projeto:**
+**Bill of materials**:
 
-1. 1 x Microcontrolador PIC16F877A <br>
-2. 1 x Soquete 40 pinos </br>
-3. 1 x Regulador de tensão 7805 </br>
+1. 1 x PIC16F877A microcontroller <br>
+2. 1 x 40 pinos header</br>
+3. 1 x 7805 Voltage Regulator </br>
 4. 3 x Push button </br>
-5. 3 x Resistor de 1k ohm </br>
-6. 1 x Cristal de 20MHz  </br>
-7. 2 x Capacitores de 22pF </br>
-8. 1 x Capacitor de 100nF </br>
+5. 3 x Resistor 1k ohm </br>
+6. 1 x 20MHz Crystal  </br>
+7. 2 x 22pF Capacitors </br>
+8. 1 x 100nF Capacitors </br>
 9. 17 x LEDs </br>
-10. 1 x Conector com fios para baterias de 9V
-11. 1 x placa universal de
+10. 1 x Wired connector to 9V battery </br>
+11. 1 x 10x5cm Universal Soldering Board </br>
 
-Abaixo, tem-se uma imagem do circuito montado em uma placa universal.
+*Below, there is an image of the circuit mounted in an universal soldering board.*
 
 ![Imgur](http://i.imgur.com/iAL2RE6.jpg)
 
-## Direitos
+##Copyrigths
 
-**O projeto pode ser reproduzido sem problema algum.** </br>
-Entretanto, caso isso seja feito, apenas peço para manterem/referenciarem **créditos ao autor**.
+**The project can be reproduced without any problems.** </br>
+However, I only ask you to **keep author credits.** :)
+
 
 Enjoy!
 
