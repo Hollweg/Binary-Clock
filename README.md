@@ -2,7 +2,7 @@
 
 ##The purpose
 
-Binary Clock project, **hardware and software**, that counts hours, time, minutes and seconds **using the PIC16F877A microcontroller**, from Microchip. The Binary Clock was developed as a personal project and it was mounted on an universal soldering board, according with Proteus folder schematics (that I developed).
+Binary Clock project, **hardware and software**, that counts hours, minutes and seconds **using MIcrochip PIC16F877A microcontroller**. The Binary Clock was developed as a personal project and it was mounted on an universal soldering board, according with Proteus folder schematics (that I developed too). :)
 
 During this README, I'll explain how to develop your own Binary Clock from scratch. :D
 
