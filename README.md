@@ -1,5 +1,4 @@
-<<<<<<< HEAD
-=======
+
 #Binary Clock
 
 ##The purpose
