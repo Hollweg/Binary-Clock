@@ -38,7 +38,7 @@ The project was developed in **C** and were implemented some functions to enhanc
  
 ##How it works?
 
-The clock starts marking hour from 00:00, in the moment that it's powered. **To adjust time until desired hour and minute you have to use the board push buttons** (in the right side of hour or minute LEDs array). In the moment that the circuit is **de-energized**, the clock **loses its reference** and the actual time because it does not have a memory hardware implemented in board.
+The clock starts marking hour from 00:00 in the moment that it's powered. **To adjust time until desired hour and minute you have to use the board push buttons** (in the right side of hour or minute LEDs array). In the moment that the circuit is **de-energized**, the clock **loses its reference** and the actual time because it does not have a memory hardware implemented in board.
 
 However, if you need to store the last marked hour, even with the circuit de-energized, you can use a RTC hardware, and only read its time variables, than display it in the LEDs array. In other way, I think that this kind of "upgrade" is not nice because it makes you miss the essence of build an Binary Clock, since thinking in clock logic, counters, until software otimization.
 
