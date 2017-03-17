@@ -1,9 +1,5 @@
-<<<<<<< HEAD
 
-#Binary Clock
-=======
 # Binary Clock
->>>>>>> v2
 
 ## The purpose
 
