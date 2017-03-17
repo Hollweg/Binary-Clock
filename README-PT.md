@@ -1,18 +1,18 @@
-#Relógio Binário
+# Relógio Binário
 
-##A proposta
+## A proposta
 
 Projeto de um relógio binário, **hardware e software**, que marque horas, minutos e segundos, utilizando um **microcontrolador PIC16F877A**, da Microchip. O relógio binário foi desenvolvido como projeto pessoal, e foi montado em uma placa universal, de acordo com os esquemáticos da pasta Proteus, do mesmo diretório de projeto.
 
 Durante esse README, explicarei o passo a passo para montar um Relógio Binário. :)
 
-##Utilidade
+## Utilidade
 
 O código foi desenvolvido especificamente para a plataforma PIC. Entretanto, **sendo feitas algumas pequenas modificações de inicalização e configuração de alguns registradores, o projeto pode ser adaptado para outros microcontroladores, de outras fabricantes.**
 
 O projeto foi todo desenvolvido em C, e foram implementadas algumas funções para facilitar o fluxo de código ao longo do projeto, como uma função que imita o 'try; catch' das linguagens orientadas a objetos. Dessa forma, é possível verificar erros, e saber como agir de uma forma bastante inteligente e eficicente.
 
-##Como funciona?
+## Como funciona?
 
 **O relógio começa a marcar a hora a partir do instante 00:00, no momento que é energizado. Para fazer o ajuste da hora desejada, basta usar os push buttons de ajuste de minuto e hora. No momento que o circuito é desenergizado, o relógio perde a hora marcada, pois não há nenhum dispositivo de memória implementado.**
 
@@ -34,7 +34,7 @@ Tipos de arquivos presentes no projeto:
 Durante a montagem, utilizei LEDs de auto-brilho vermelhos. </br>
 Todavia, não recomendo a montagem utilizando LEDs de auto-brilho, pois sua intensidade é fortíssima, e dependendo do ângulo e da distância observadas, machuca e é desconfortável aos olhos. Portanto, dê preferência para utilização de LEDs convencionais.
 
-##O que foi utilizado no projeto?
+## O que foi utilizado no projeto?
 
 **Lista de componentes utilizados no projeto:**
 
@@ -54,7 +54,7 @@ Todavia, não recomendo a montagem utilizando LEDs de auto-brilho, pois sua inte
 
 ![Imgur](http://i.imgur.com/iAL2RE6.jpg)
 
-##Direitos
+## Direitos
 
 **O projeto pode ser reproduzido sem problema algum.** </br>
 Entretanto, caso isso seja feito, apenas peço para manterem/referenciarem **créditos ao autor**.

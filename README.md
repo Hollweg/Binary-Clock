@@ -1,19 +1,23 @@
+<<<<<<< HEAD
 
 #Binary Clock
+=======
+# Binary Clock
+>>>>>>> v2
 
-##The purpose
+## The purpose
 
 Binary Clock project, **hardware and software**, that counts hours, minutes and seconds **using MIcrochip PIC16F877A microcontroller**. The Binary Clock was developed as a personal project and it was mounted on an universal soldering board, according with Proteus folder schematics (that I developed too). :)
 
 During this README, I'll explain how to develop your own Binary Clock from scratch. :D
 
-##Utility
+## Utility
 
 The code was developed specifically to **PIC platform**. However, if some changes were made, mainly in initialization, configuration and some registers, **the project can be adapted to other microcontroller families, from other manufacturers**.
 
 The project was developed in **C** and were implemented some functions to enhance flux code during project, like one function that **mimics the job done by "try catch"**, from object oriented programming languages. In this way, it is possible to verify errors and know how to act in a very smart and intelligent way.
  
-##How it works?
+## How it works?
 
 The clock starts marking hour from 00:00 in the moment that it's powered. **To adjust time until desired hour and minute you have to use the board push buttons** (in the right side of hour or minute LEDs array). In the moment that the circuit is **de-energized**, the clock **loses its reference** and the actual time because it does not have a memory hardware implemented in board.
 
@@ -32,7 +36,7 @@ File types in project:
 
 ![Imgur](http://i.imgur.com/rsIKPXu.png)
 
-##Which was used in project?
+## Which was used in project?
 
 **Bill of materials**:
 
@@ -52,7 +56,7 @@ File types in project:
 
 ![Imgur](http://i.imgur.com/iAL2RE6.jpg)
 
-##Copyrigths
+## Copyrigths
 
 **The project can be reproduced without any problems.** </br>
 However, I only ask you to **keep author credits.** :)
